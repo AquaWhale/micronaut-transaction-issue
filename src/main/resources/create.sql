@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS `test`;
+CREATE TABLE test (
+    name varchar(255),
+    created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
